@@ -1,0 +1,14 @@
+<!--pages/sunyuchen/sunyuchen.wxml-->
+<!-- <text>pages/sunyuchen/sunyuchen.wxml</text> -->
+<view class="container">
+  <image src="/images/sunyuchen.jpg" style="width: 100px; height: 100px; background-color: #eeeeee;"></image>
+  <text>姓名：孙宇辰</text>
+  <text>学号：18074308</text>
+  <text>岗位：后端</text>
+  <text>性别：男</text>
+  <text>年龄：21</text>
+  <text>出生日期：1999年12月6日</text>
+  <text>手机号：15001071266</text>
+  <text>微信号：Syc991206</text>
+  <text>邮箱：591610735@qq.com</text>
+</view>
