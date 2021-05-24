@@ -1,13 +1,14 @@
 <!--pages/yuanchanghao/yuanchanghao.wxml-->
-<view class="container">
+<view>{{getData()}}</view>
+<view  class="container" wx:for="{{datalist}}">
   <image src="/images/yuanchanghao.jpg" style="width: 100px; height: 100px; background-color: #eeeeee;"></image>
-  <text>姓名：袁昌浩</text>
-  <text>学号：18074306</text>
-  <text>岗位：前端</text>
-  <text>性别：男</text>
-  <text>年龄：20</text>
-  <text>出生日期：2000年7月20日</text>
-  <text>手机号：13501228569</text>
-  <text>微信号：ych20000720</text>
-  <text>邮箱：1455707828@qq.com</text>
+  <text>姓名：{{item.name}}</text>
+  <text>学号：{{item.id}}</text>
+  <text>性别：{{item.gender}}</text>
+  <text>出生日期：{{item.birth}}</text>
+  <text>年龄：{{item.age}}</text>
+  <text>微信号：{{item.Wechat}}</text>
+  <text>电话号码：{{item.PhoneNumber}}</text>
+  <text>邮箱：{{item.email}}</text>
+  <text>岗位：{{item.position}}</text>
 </view>
